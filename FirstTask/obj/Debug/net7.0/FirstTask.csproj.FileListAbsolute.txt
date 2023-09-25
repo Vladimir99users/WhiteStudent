@@ -1,0 +1,15 @@
+D:\C#_WPF\RouteJunior\FirstTask\bin\Debug\net7.0\FirstTask.exe
+D:\C#_WPF\RouteJunior\FirstTask\bin\Debug\net7.0\FirstTask.deps.json
+D:\C#_WPF\RouteJunior\FirstTask\bin\Debug\net7.0\FirstTask.runtimeconfig.json
+D:\C#_WPF\RouteJunior\FirstTask\bin\Debug\net7.0\FirstTask.dll
+D:\C#_WPF\RouteJunior\FirstTask\bin\Debug\net7.0\FirstTask.pdb
+D:\C#_WPF\RouteJunior\FirstTask\obj\Debug\net7.0\FirstTask.csproj.AssemblyReference.cache
+D:\C#_WPF\RouteJunior\FirstTask\obj\Debug\net7.0\FirstTask.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_WPF\RouteJunior\FirstTask\obj\Debug\net7.0\FirstTask.AssemblyInfoInputs.cache
+D:\C#_WPF\RouteJunior\FirstTask\obj\Debug\net7.0\FirstTask.AssemblyInfo.cs
+D:\C#_WPF\RouteJunior\FirstTask\obj\Debug\net7.0\FirstTask.csproj.CoreCompileInputs.cache
+D:\C#_WPF\RouteJunior\FirstTask\obj\Debug\net7.0\FirstTask.dll
+D:\C#_WPF\RouteJunior\FirstTask\obj\Debug\net7.0\refint\FirstTask.dll
+D:\C#_WPF\RouteJunior\FirstTask\obj\Debug\net7.0\FirstTask.pdb
+D:\C#_WPF\RouteJunior\FirstTask\obj\Debug\net7.0\FirstTask.genruntimeconfig.cache
+D:\C#_WPF\RouteJunior\FirstTask\obj\Debug\net7.0\ref\FirstTask.dll
