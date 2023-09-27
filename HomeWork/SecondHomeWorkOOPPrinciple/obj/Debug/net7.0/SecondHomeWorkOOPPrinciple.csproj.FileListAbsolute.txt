@@ -1,0 +1,15 @@
+D:\C#_WPF\WhiteStudent\HomeWork\SecondHomeWorkOOPPrinciple\obj\Debug\net7.0\SecondHomeWorkOOPPrinciple.csproj.AssemblyReference.cache
+D:\C#_WPF\WhiteStudent\HomeWork\SecondHomeWorkOOPPrinciple\obj\Debug\net7.0\SecondHomeWorkOOPPrinciple.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_WPF\WhiteStudent\HomeWork\SecondHomeWorkOOPPrinciple\obj\Debug\net7.0\SecondHomeWorkOOPPrinciple.AssemblyInfoInputs.cache
+D:\C#_WPF\WhiteStudent\HomeWork\SecondHomeWorkOOPPrinciple\obj\Debug\net7.0\SecondHomeWorkOOPPrinciple.AssemblyInfo.cs
+D:\C#_WPF\WhiteStudent\HomeWork\SecondHomeWorkOOPPrinciple\obj\Debug\net7.0\SecondHomeWorkOOPPrinciple.csproj.CoreCompileInputs.cache
+D:\C#_WPF\WhiteStudent\HomeWork\SecondHomeWorkOOPPrinciple\bin\Debug\net7.0\SecondHomeWorkOOPPrinciple.exe
+D:\C#_WPF\WhiteStudent\HomeWork\SecondHomeWorkOOPPrinciple\bin\Debug\net7.0\SecondHomeWorkOOPPrinciple.deps.json
+D:\C#_WPF\WhiteStudent\HomeWork\SecondHomeWorkOOPPrinciple\bin\Debug\net7.0\SecondHomeWorkOOPPrinciple.runtimeconfig.json
+D:\C#_WPF\WhiteStudent\HomeWork\SecondHomeWorkOOPPrinciple\bin\Debug\net7.0\SecondHomeWorkOOPPrinciple.dll
+D:\C#_WPF\WhiteStudent\HomeWork\SecondHomeWorkOOPPrinciple\bin\Debug\net7.0\SecondHomeWorkOOPPrinciple.pdb
+D:\C#_WPF\WhiteStudent\HomeWork\SecondHomeWorkOOPPrinciple\obj\Debug\net7.0\SecondHomeWorkOOPPrinciple.dll
+D:\C#_WPF\WhiteStudent\HomeWork\SecondHomeWorkOOPPrinciple\obj\Debug\net7.0\refint\SecondHomeWorkOOPPrinciple.dll
+D:\C#_WPF\WhiteStudent\HomeWork\SecondHomeWorkOOPPrinciple\obj\Debug\net7.0\SecondHomeWorkOOPPrinciple.pdb
+D:\C#_WPF\WhiteStudent\HomeWork\SecondHomeWorkOOPPrinciple\obj\Debug\net7.0\SecondHomeWorkOOPPrinciple.genruntimeconfig.cache
+D:\C#_WPF\WhiteStudent\HomeWork\SecondHomeWorkOOPPrinciple\obj\Debug\net7.0\ref\SecondHomeWorkOOPPrinciple.dll
