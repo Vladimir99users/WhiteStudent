@@ -4,9 +4,9 @@ namespace FirstTask
 {
     public class ReplacementService
     {
-        private const string URL = "https://raw.githubusercontent.com/thewhitesoft/student-2023-assignment/main/data.json";
-        private const string ReplacementJSONFile = "replacement.json";
-        private const string ResultFile = "result.json";
+        private readonly string URL = "https://raw.githubusercontent.com/thewhitesoft/student-2023-assignment/main/data.json";
+        private readonly string ReplacementJSONFile = "replacement.json";
+        private readonly string ResultFile = "result.json";
 
         private readonly HttpClient _httpClient = new HttpClient();
 

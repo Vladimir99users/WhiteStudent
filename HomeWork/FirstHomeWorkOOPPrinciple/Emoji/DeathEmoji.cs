@@ -1,7 +1,7 @@
-public class DeathEmoji : Emoji
+public class DeathEmoji : IEmojable
 {
     private string _deathEmoji = "(×﹏×)";
-    public override string GetEmoji()
+    public string GetEmoji()
     {
         return _deathEmoji;
     }

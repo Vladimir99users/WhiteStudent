@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "irV+1QnlLZBm52VF6t4MzHv99c2q7RoJ1HhDK6V6gcecCCMSNDmnawCrKpzc2OlHfTBE35s8uA1fCFc3N3zn4g==",
+  "dgSpecHash": "dDy47NhyZOGf8/KPkQPV6vt7b7ztHqylAJQ3hcKTGRLWCTyb50U1WvUwpvUar7sjeNvRaAF2tkKoSbR0e6a0UA==",
   "success": true,
-  "projectFilePath": "D:\\C#_WPF\\RouteJunior\\FirstTask\\FirstTask.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\C#_WPF\\WhiteStudent\\FirstTask\\FirstTask.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512"
+  ],
   "logs": []
 }

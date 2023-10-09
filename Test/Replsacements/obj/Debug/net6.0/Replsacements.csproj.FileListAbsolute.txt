@@ -1,0 +1,15 @@
+D:\C#_WPF\WhiteStudent\Test\Replsacements\bin\Debug\net6.0\Replsacements.exe
+D:\C#_WPF\WhiteStudent\Test\Replsacements\bin\Debug\net6.0\Replsacements.deps.json
+D:\C#_WPF\WhiteStudent\Test\Replsacements\bin\Debug\net6.0\Replsacements.runtimeconfig.json
+D:\C#_WPF\WhiteStudent\Test\Replsacements\bin\Debug\net6.0\Replsacements.dll
+D:\C#_WPF\WhiteStudent\Test\Replsacements\bin\Debug\net6.0\Replsacements.pdb
+D:\C#_WPF\WhiteStudent\Test\Replsacements\obj\Debug\net6.0\Replsacements.csproj.AssemblyReference.cache
+D:\C#_WPF\WhiteStudent\Test\Replsacements\obj\Debug\net6.0\Replsacements.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_WPF\WhiteStudent\Test\Replsacements\obj\Debug\net6.0\Replsacements.AssemblyInfoInputs.cache
+D:\C#_WPF\WhiteStudent\Test\Replsacements\obj\Debug\net6.0\Replsacements.AssemblyInfo.cs
+D:\C#_WPF\WhiteStudent\Test\Replsacements\obj\Debug\net6.0\Replsacements.csproj.CoreCompileInputs.cache
+D:\C#_WPF\WhiteStudent\Test\Replsacements\obj\Debug\net6.0\Replsacements.dll
+D:\C#_WPF\WhiteStudent\Test\Replsacements\obj\Debug\net6.0\refint\Replsacements.dll
+D:\C#_WPF\WhiteStudent\Test\Replsacements\obj\Debug\net6.0\Replsacements.pdb
+D:\C#_WPF\WhiteStudent\Test\Replsacements\obj\Debug\net6.0\Replsacements.genruntimeconfig.cache
+D:\C#_WPF\WhiteStudent\Test\Replsacements\obj\Debug\net6.0\ref\Replsacements.dll

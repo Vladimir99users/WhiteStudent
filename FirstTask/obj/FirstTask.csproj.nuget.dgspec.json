@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#_WPF\\RouteJunior\\FirstTask\\FirstTask.csproj": {}
+    "D:\\C#_WPF\\WhiteStudent\\FirstTask\\FirstTask.csproj": {}
   },
   "projects": {
-    "D:\\C#_WPF\\RouteJunior\\FirstTask\\FirstTask.csproj": {
+    "D:\\C#_WPF\\WhiteStudent\\FirstTask\\FirstTask.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#_WPF\\RouteJunior\\FirstTask\\FirstTask.csproj",
+        "projectUniqueName": "D:\\C#_WPF\\WhiteStudent\\FirstTask\\FirstTask.csproj",
         "projectName": "FirstTask",
-        "projectPath": "D:\\C#_WPF\\RouteJunior\\FirstTask\\FirstTask.csproj",
+        "projectPath": "D:\\C#_WPF\\WhiteStudent\\FirstTask\\FirstTask.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\C#_WPF\\RouteJunior\\FirstTask\\obj\\",
+        "outputPath": "D:\\C#_WPF\\WhiteStudent\\FirstTask\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

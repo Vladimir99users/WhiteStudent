@@ -1,7 +1,7 @@
-public class CongratulationsEmoji : Emoji
+public class CongratulationsEmoji : IEmojable
 {
     private string _congratulationsEmoji = "╰(▔∀▔)╯";
-    public override string GetEmoji()
+    public string GetEmoji()
     {
         return _congratulationsEmoji;
     }

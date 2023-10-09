@@ -6,7 +6,7 @@ namespace HomeWork
 
     public class OldSolutions
     {
-        public static void Main()
+        public static void OldMain()
         {
             Console.InputEncoding = System.Text.Encoding.GetEncoding("utf-16");
             

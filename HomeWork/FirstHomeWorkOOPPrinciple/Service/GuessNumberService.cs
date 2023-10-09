@@ -13,14 +13,16 @@ namespace HomeWork
         private const int DISTANCE_VALUE_WARM = 2;
 
         private string _answer = "";
-        public GuessNumberService()
-        {
 
+        private IFixablePromt _promt;
+        public GuessNumberService(IFixablePromt promt)
+        {
+            _promt = promt;
         }
 
         public void RunService()
         {
-            Console.WriteLine("Привет!\nБудешь угадывать? (да/нет)");
+            Console.WriteLine(_promt.HIMessage);
 
             _answer = Console.ReadLine();
 
@@ -47,7 +49,7 @@ namespace HomeWork
                     {
                         WriteEmojiInConsole(new CongratulationsEmoji());
 
-                        Console.WriteLine("Будешь угадывать? (да/нет)");
+                        Console.WriteLine(_promt.WillYouGuessMessage);
 
                         _answer = Console.ReadLine();
 
@@ -61,7 +63,7 @@ namespace HomeWork
                     {
                         if (IsExitToTheRange(userValue))
                         {
-                            Console.WriteLine("Читать не умеешь?");
+                            Console.WriteLine(_promt.YouCantReading);
                         }
                         else
                         {
@@ -82,14 +84,14 @@ namespace HomeWork
             else if (answer != CORRECT_ANSWER)
             {
                 WriteEmojiInConsole(new SadEmoji());
-                Console.WriteLine("непонятно, давай до свидания");
+                Console.WriteLine(_promt.DontKnowMessage);
                 return true;
             }
 
             return false;
         }
 
-        private void WriteEmojiInConsole(Emoji emoji)
+        private void WriteEmojiInConsole(IEmojable emoji)
         {
             Console.WriteLine(emoji.GetEmoji());
         }
@@ -108,15 +110,15 @@ namespace HomeWork
         {
             if (Math.Abs(userValue - randomValue) > DISTANCE_VALUE_COLD)
             {
-                Console.WriteLine("Холодно");
+                Console.WriteLine(_promt.ColdMessage);
             }
             else if (Math.Abs(userValue - randomValue) > DISTANCE_VALUE_WARM)
             {
-                Console.WriteLine("Тепло");
+                Console.WriteLine(_promt.WarmMessage);
             }
             else
             {
-                Console.WriteLine("Жгётся!");
+                Console.WriteLine(_promt.BurningMessage);
             }
 
             return false;

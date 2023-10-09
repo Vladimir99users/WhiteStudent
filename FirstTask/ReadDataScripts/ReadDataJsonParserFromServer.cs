@@ -1,21 +1,27 @@
 using System.Text.Json;
-public class ReadDataJsonParserFromServer : IReadData<List<string>>
+
+namespace FirstTask
 {
-    private readonly HttpClient _httpClient;
 
-    public ReadDataJsonParserFromServer(HttpClient httpClient)
+    public class ReadDataJsonParserFromServer : IReadData<List<string>>
     {
-        _httpClient = httpClient;
-    }
-    public async Task<List<string>> GetData(string path)
-    {   
-        if(string.IsNullOrEmpty(path) )
-        {
-            throw new ArgumentNullException();
-        }
+        private readonly HttpClient _httpClient;
 
-        HttpResponseMessage response = await _httpClient.GetAsync(path);
-        string json = await response.Content.ReadAsStringAsync();
-        return JsonSerializer.Deserialize<List<string>>(json);
+        public ReadDataJsonParserFromServer(HttpClient httpClient)
+        {
+            _httpClient = httpClient;
+        }
+        public async Task<List<string>> GetData(string path)
+        {
+            if (string.IsNullOrEmpty(path))
+            {
+                throw new ArgumentNullException();
+            }
+
+            HttpResponseMessage response = await _httpClient.GetAsync(path);
+            string json = await response.Content.ReadAsStringAsync();
+            return JsonSerializer.Deserialize<List<string>>(json);
+        }
     }
+
 }

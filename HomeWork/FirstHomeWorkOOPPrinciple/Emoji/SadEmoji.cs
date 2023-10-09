@@ -1,7 +1,7 @@
-public class SadEmoji : Emoji
+public class SadEmoji : IEmojable
 {
     private string _sadEmoji = "(︶︹︺)";
-    public override string GetEmoji()
+    public string GetEmoji()
     {
         return _sadEmoji;
     }

@@ -1,18 +1,22 @@
-public class ReadDataOnFile : IReadData<string>
+namespace FirstTask
 {
-    public ReadDataOnFile()
-    {
 
-    }
-    public async Task<string> GetData(string path)
+    public class ReadDataOnFile : IReadData<string>
     {
-        if(string.IsNullOrEmpty(path) )
+        public ReadDataOnFile()
         {
-            throw new ArgumentNullException();
+
         }
+        public async Task<string> GetData(string path)
+        {
+            if (string.IsNullOrEmpty(path))
+            {
+                throw new ArgumentNullException();
+            }
 
-        string data = await File.ReadAllTextAsync(path);
+            string data = await File.ReadAllTextAsync(path);
 
-        return data;
+            return data;
+        }
     }
 }
